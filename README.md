@@ -18,4 +18,12 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
