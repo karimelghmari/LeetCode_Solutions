@@ -6,6 +6,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0021-merge-two-sorted-lists](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 ## Math
 |  |
 | ------- |
@@ -14,6 +15,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0021-merge-two-sorted-lists) |
 ## Two Pointers
 |  |
 | ------- |
