@@ -4,33 +4,39 @@
  *     int val;
  *     struct ListNode *next;
  * };
- //
  */
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
-    int l=0,m=1;
     struct ListNode*p=head;
-    while(p!=NULL)
-    {
-        l++;
+    int c=0,q=0;
+    while(p!=NULL){
+        c++;
         p=p->next;
-    }
-    struct ListNode*M=head;
-    struct ListNode*T=M;
-    while(m<=l-n)
-    {
-        T=M;
-        M=M->next;
-        m++;
-    }
-    if(l==1){
-        return NULL;
-    }
-    if(l==n)
-    {
+        }
+    if(head==NULL||c==1) return NULL;
+    if(n==c){
         head=head->next;
+        return head;
     }
-    T->next=M->next;
-    M=NULL;
+    if(n==1&&c!=n){
+        struct ListNode*T=head;
+        while(T->next->next!=NULL){
+            T=T->next;
+        }
+        T->next=NULL;
+        return head;
+    }
+    else if(n>1){
+        c=c-n;
+        p=head;
+        while(q<c-1){
+            q++;
+            p=p->next;
+        }
+        struct ListNode*T=p;
+        T=p->next;
+        p->next=T->next;
+        return head;
+    }
     return head;
+}       
     
-}
