@@ -14,6 +14,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/karimelghmari/LeetCode_Solutions/tree/master/0009-palindrome-number) |
 ## Recursion
 |  |
 | ------- |
